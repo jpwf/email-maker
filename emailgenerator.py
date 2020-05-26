@@ -5,13 +5,13 @@ from time import sleep
 p = 'Deseja gerar um email? '
 nomes = ['maria','joao','mariazinha','jonas','joseph','max','marcio','cleo','marcos','marquinhos','beth','michele','kaka','carlos','jones','marcia','lucca','lucas','locoso','vitor','carolzinha','mikael','lucaco','mikie','maximo','marcinha']
 #definindo listas
-email = ['@gmail.com','@hotmail.com','@ig.com']
+provedor = ['@gmail.com','@hotmail.com','@ig.com']
 lista1 = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
 lista2 = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20']
 #utilizando function choice da biblioteca random para definir scripts
 def script1():
         a = random.choice(nomes)
-        b = random.choice(email)
+        b = random.choice(provedor)
         c = random.choice(lista1)
         d = random.choice(lista2)
         z = random.choice(lista1)
@@ -36,7 +36,7 @@ def script2():
         print('_____SENHA: {}{}{}{}{}{}{}{}{}_____'.format(e,z,w,i,v,f,o,u,x))
 def script3():
         g = random.choice(nomes)
-        h = random.choice(email)
+        h = random.choice(provedor)
         print('_____LOGIN: {}{}_____'.format(g,h))
 def script4():
         p3 = int(input('Digite 3 para gerar mais um email e 4 para gerar uma senha ou login: '))
