@@ -58,7 +58,7 @@ def script4():
 while True:
         p1 = str(input(p))
         if p1 == 's':
-                print('processando.....')
+                print('Processando.....')
                 sleep(2)
                 script1()
                 sleep(1)
@@ -78,6 +78,6 @@ while True:
                 if p2 == 's':
                         script4()
                 if p2 == 'n':
-                        print('OK, fazendo logoff.....')
+                        print('OK, Fazendo logoff.....')
                         sleep(1)
                         break 
