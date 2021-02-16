@@ -114,13 +114,8 @@ while True:
         print("Ok tudo certo, domínio guardado")
         password = "Agora a parte mais importante, você gostaria que sua senha seja feita de letras, números ou símbolos especiais\n1- Letras\n2- Números\n3- Símbolos especiais\n4- Mix dos 3\nResposta:"
         sleep(1)
-       
-
-        # question2 = str(input("Bom, tudo certo até agora, sua senha terá 9 caracteres, deseja reduzir seu tamanho?\nResposta: "))
-        # if question2 == 'n':
         print("Ok, gerando sua senha....")
         sleep(0.4)
-        # manual()
         sleep(1)
         print('')
         emaill = ("Email: {}@{}.com".format(name, domain))
@@ -141,7 +136,6 @@ while True:
         print('Foi um prazer ajudar na criação do seu email, tenha um bom dia!!!!')
         sleep(0.4)
         break;
-        # if question == 's'
 
 
         
